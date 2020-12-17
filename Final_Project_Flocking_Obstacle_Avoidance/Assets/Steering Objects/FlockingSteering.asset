@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0486904c312f6f9439e13c4395557fe8, type: 3}
+  m_Name: FlockingSteering
+  m_EditorClassIdentifier: 
+  flockSteeringBehaviours:
+  - {fileID: 11400000, guid: e271ec2a3bb556b45875684ecfeeb392, type: 2}
+  - {fileID: 11400000, guid: c6e0a829b2618cb4c9d3afe986eece99, type: 2}
+  - {fileID: 11400000, guid: 32cea79daed4a1341955493d327ade3d, type: 2}
+  - {fileID: 11400000, guid: 620839d39792bc04fa7b7f5108dce4ff, type: 2}
+  - {fileID: 11400000, guid: 500df2bf3fd1ac8469ba447751465b03, type: 2}
+  correspondingWeights:
+  - 0.8
+  - 0.7
+  - 0.6
+  - 0.1
+  - 0.9
